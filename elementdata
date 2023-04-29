@@ -83,6 +83,15 @@ info.Elements = {
 		},
 	},
 
+	["TestingAnother"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Water", "Air", 30},
+		},
+	},
 	--ee
 }
 

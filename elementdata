@@ -82,7 +82,7 @@ info.Elements = {
 			{"Air", "Water",94},
 		},
 	},
-	["Dog"] = {
+	["TestingAnother"] = {
 		categories = {
 			"Fire",
 

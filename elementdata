@@ -82,24 +82,7 @@ info.Elements = {
 			{"Air", "Water",94},
 		},
 	},
-	["TestingAnother"] = {
-		categories = {
-			"Fire",
 
-		},
-		fusions = {
-			{"Water", "Air", 30},
-		},
-	},
-	["TestingAnother"] = {
-		categories = {
-			"Fire",
-
-		},
-		fusions = {
-			{"Water", "Air", 30},
-		},
-	},
 	--ee
 }
 

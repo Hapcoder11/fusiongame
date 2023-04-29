@@ -1,1 +1,85 @@
+local info = {}
 
+info.categories = {
+	["Fire"] = {
+		col = Color3.new(0.701961, 0.145098, 0.145098)
+	},
+	["Water"] = {
+		col = Color3.new(0.243137, 0.533333, 1)
+	},
+	["Air"] = {
+		col = Color3.new(0.698039, 0.721569, 0.717647)
+	},
+	["Earth"] = {
+		col = Color3.new(0.678431, 0.376471, 0.129412)
+	},
+}
+info.Elements = {
+	["Fire"] = {
+		categories = {
+			"Fire"
+		},
+		starter = true,
+	},
+	["Water"] = {
+		categories = {
+			"Water"
+		},
+		starter = true,
+	},
+	["Air"] = {
+		categories = {
+			"Air"
+		},
+		starter = true,
+	},
+	["Rock"] = {
+		categories = {
+			"Earth"
+		},
+		starter = true,
+	},
+	
+	["Steam"] = {
+		categories = {
+			"Water"
+		},
+		fusions = {
+			{"Fire", "Water",90},
+		},
+	},
+	["Explosion"] = {
+		categories = {
+			"Fire"
+		},
+		fusions = {
+			{"Fire", "Fire",80},
+		},
+	},
+	["Lava"] = {
+		categories = {
+			"Fire"
+		},
+		fusions = {
+			{"Fire", "Rock",60},
+		},
+	},
+	["Boulder"] = {
+		categories = {
+			"Earth"
+		},
+		fusions = {
+			{"Rock", "Rock",93},
+		},
+	},
+	["Mist"] = {
+		categories = {
+			"Fire"
+		},
+		fusions = {
+			{"Air", "Water",94},
+		},
+	},
+}
+
+return info

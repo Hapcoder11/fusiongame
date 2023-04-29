@@ -46,7 +46,7 @@ info.Elements = {
 			"Water"
 		},
 		fusions = {
-			{"Fire", "Water",90},
+			{"Fire", "Water",90,1,2},
 		},
 		starter = true,
 	},
@@ -55,7 +55,7 @@ info.Elements = {
 			"Fire"
 		},
 		fusions = {
-			{"Fire", "Fire",80},
+			{"Fire", "Fire",80,1,3},
 		},
 	},
 	["Lava"] = {
@@ -63,7 +63,7 @@ info.Elements = {
 			"Fire"
 		},
 		fusions = {
-			{"Fire", "Rock",60},
+			{"Fire", "Rock",60,1,1},
 		},
 	},
 	["Boulder"] = {
@@ -71,7 +71,7 @@ info.Elements = {
 			"Earth"
 		},
 		fusions = {
-			{"Rock", "Rock",93},
+			{"Rock", "Rock",93,1,1},
 		},
 	},
 	["Mist"] = {
@@ -79,7 +79,7 @@ info.Elements = {
 			"Fire"
 		},
 		fusions = {
-			{"Air", "Water",94},
+			{"Air", "Water",94,2,3},
 		},
 	},
 

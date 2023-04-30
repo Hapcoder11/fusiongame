@@ -114,6 +114,15 @@ info.Elements = {
 			{"Air", "Water",94,2,3},
 		},
 	},
+	["Dust"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Rock", "Air", 65, 1, 2},
+		},
+	},
 	--ee
 }
 

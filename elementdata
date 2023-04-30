@@ -20,9 +20,6 @@ info.categories = {
 	["Earth"] = {
 		col = Color3.new(0.678431, 0.376471, 0.129412)
 	},
-	["Cosmic"] = {
-		col = Color3.new(0.345098, 0.00392157, 0.588235)
-	},
 	--ce
 }
 info.Elements = {
@@ -268,6 +265,15 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Mud", 60, 1, 1},
+		},
+	},
+	["Star"] = {
+		categories = {
+			"Cosmic",
+
+		},
+		fusions = {
+			{"Matter", "Fire", 70, 1, 1},
 		},
 	},
 	--ee

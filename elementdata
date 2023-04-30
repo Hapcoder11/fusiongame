@@ -366,6 +366,15 @@ info.Elements = {
 			{"Life", "Rock", 95, 1, 1},
 		},
 	},
+	["Human"] = {
+		categories = {
+			"Life",
+
+		},
+		fusions = {
+			{"Life", "Rock", 100, 1, 1},
+		},
+	},
 	--ee
 }
 

@@ -102,7 +102,7 @@ info.Elements = {
 	},
 	["Mist"] = {
 		categories = {
-			"Fire"
+			"Water"
 		},
 		fusions = {
 			{"Air", "Water",94,2,3},

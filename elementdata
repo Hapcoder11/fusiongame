@@ -23,6 +23,9 @@ info.categories = {
 	["Cosmic"] = {
 		col = Color3.new(0.345098, 0.00392157, 0.588235)
 	},
+	["Metal"] = {
+		col = Color3.new(0.294118, 0.294118, 0.294118)
+	},
 	--ce
 }
 info.Elements = {

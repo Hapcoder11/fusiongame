@@ -318,7 +318,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Earth", "Water", "Matter", 100, 1, 1},
+			{"Rock", "Water", "Matter", 100, 1, 1},
 		},
 	},
 	--ee

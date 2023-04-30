@@ -393,6 +393,15 @@ info.Elements = {
 			{"Human", "Bug", 80, 1, 1},
 		},
 	},
+	["Angel"] = {
+		categories = {
+			"Holy",
+
+		},
+		fusions = {
+			{"Human", "Bird", 65, 1, 1},
+		},
+	},
 	--ee
 }
 

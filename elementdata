@@ -348,15 +348,6 @@ info.Elements = {
 			{"Life", "Water", 95, 1, 1},
 		},
 	},
-	["Fish"] = {
-		categories = {
-			"Life",
-
-		},
-		fusions = {
-			{"Life", "Water", 95, 1, 1},
-		},
-	},
 	["Bug"] = {
 		categories = {
 			"Life",
@@ -372,7 +363,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Life", "Rock", 100, 1, 1},
+			{"Life", "Rock", "Water", "Fire", 100, 1, 1},
 		},
 	},
 	--ee

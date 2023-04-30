@@ -168,7 +168,10 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Steam", "Water", 90, 1, 1},
+			{"Steam", "Water", 80, 1, 1},
+			{"Steam", "Steam", 95, 1, 1},
+			{"Vapor", "Steam", 90, 1, 1},
+			{"Vapor", "Vapor", 80, 1, 1},
 		},
 	},
 	["Geyser"] = {
@@ -213,7 +216,8 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Smoke", "Water", 80, 1, 1},
+			{"Smoke", "Water", 75, 1, 1},
+			{"Mud", "Water", 90, 1, 1},
 		},
 	},
 	["Calidium"] = {
@@ -241,6 +245,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Wind", "Water", 70, 1, 1},
+			{"Air", "Water", 9, 1, 1},
 		},
 	},
 	["Tornado"] = {
@@ -259,6 +264,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Boulder", 95, 1, 1},
+			{"Boulder", "Boulder", 70, 1, 1},
 		},
 	},
 	["Enormous Sludge"] = {

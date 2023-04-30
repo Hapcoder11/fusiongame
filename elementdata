@@ -404,6 +404,22 @@ info.Elements = {
 			{"Human", "Bird", "Life", 65, 1, 1},
 		},
 	},
+	["Fallen Angel"] = {
+		categories = {
+			"Death",
+		},
+		fusions = {
+			{"Human", "Bird", "Death", 65, 1, 1},
+		},
+	},
+	["Winged Human"] = {
+		categories = {
+			"Life",
+		},
+		fusions = {
+			{"Human", "Bird", 78, 1, 1},
+		},
+	},
 	["Abomination"] = {
 		categories = {
 			"Death",

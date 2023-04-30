@@ -177,6 +177,15 @@ info.Elements = {
 			{"Steam", "Rock", 65, 1, 1},
 		},
 	},
+	["Annihlon"] = {
+		categories = {
+			"Anti-Matter",
+
+		},
+		fusions = {
+			{"Anti-Matter", "Rock", 4, 1, 1},
+		},
+	},
 	--ee
 }
 

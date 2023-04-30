@@ -166,8 +166,6 @@ info.Elements = {
 		},
 		fusions = {
 			{"Steam", "Water", 90, 1, 1},
-			{"Mist", "Mist", 90, 1, 1},
-			{"Mist", "Steam", 90, 1, 1},
 		},
 	},
 	["Geyser"] = {
@@ -186,6 +184,15 @@ info.Elements = {
 		},
 		fusions = {
 			{"Anti-Matter", "Rock", 4, 1, 1},
+		},
+	},
+	["Mud"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Water", "Rock", 90, 1, 1},
 		},
 	},
 	--ee

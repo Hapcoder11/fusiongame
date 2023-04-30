@@ -402,6 +402,24 @@ info.Elements = {
 			{"Human", "Bird", 65, 1, 1},
 		},
 	},
+	["Abomination"] = {
+		categories = {
+			"Death",
+
+		},
+		fusions = {
+			{"Human", "Bird", 100, 1, 1},
+		},
+	},
+	["Abomination"] = {
+		categories = {
+			"Death",
+
+		},
+		fusions = {
+			{"Human", "Bird", 100, 1, 1},
+		},
+	},
 	--ee
 }
 

@@ -65,7 +65,6 @@ info.Elements = {
 		fusions = {
 			{"Fire", "Water",90,1,2},
 		},
-		starter = true,
 	},
 	["Explosion"] = {
 		categories = {

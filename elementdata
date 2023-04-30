@@ -388,6 +388,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Life", "Human", 55, 1, 1},
+			{"Mana", "Human", 98, 1, 1},
 		},
 	},
 	["Fisherman"] = {

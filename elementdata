@@ -164,6 +164,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Explosion", "Steam", 95, 1, 2},
+			{"Calidium", "Water", 80, 1, 2},
 		},
 	},
 	["Fog"] = {

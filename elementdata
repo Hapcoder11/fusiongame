@@ -141,7 +141,8 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Fire", "Matter", 87, 2, 2},
+			{"Fire", "Matter", 93, 2, 2},
+			{"Fire", "Dust", 77, 2, 2},
 		},
 	},
 	["Wind"] = {
@@ -189,7 +190,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Anti-Matter", "Rock", 4, 1, 1},
+			{"Anti-Matter", "Rock", 7, 1, 1},
 		},
 	},
 	["Mud"] = {

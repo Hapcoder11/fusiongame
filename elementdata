@@ -330,6 +330,15 @@ info.Elements = {
 			{"Life", "Anti-Matter", 100, 1, 1},
 		},
 	},
+	["Bird"] = {
+		categories = {
+			"Life",
+
+		},
+		fusions = {
+			{"Life", "Air", 95, 1, 1},
+		},
+	},
 	--ee
 }
 

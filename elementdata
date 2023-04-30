@@ -20,9 +20,6 @@ info.categories = {
 	["Earth"] = {
 		col = Color3.new(0.678431, 0.376471, 0.129412)
 	},
-	["Metal"] = {
-		col = Color3.new(0.254902, 0.254902, 0.254902)
-	},
 	--ce
 }
 info.Elements = {
@@ -214,6 +211,15 @@ info.Elements = {
 		},
 		fusions = {
 			{"Smoke", "Water", 80, 1, 1},
+		},
+	},
+	["Calidium"] = {
+		categories = {
+			"Metal",
+
+		},
+		fusions = {
+			{"Boulder", "Fire", 50, 1, 1},
 		},
 	},
 	--ee

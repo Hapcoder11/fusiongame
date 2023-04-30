@@ -32,6 +32,9 @@ info.categories = {
 	["Holy"] = {
 		col = Color3.new(0.839216, 0.658824, 0)
 	},
+	["Spectral"] = {
+		col = Color3.new(0, 0.823529, 0.839216)
+	},
 	--ce
 }
 info.Elements = {
@@ -324,6 +327,15 @@ info.Elements = {
 			{"Rock", "Water", "Matter", 100, 1, 1},
 		},
 	},
+	["Mana"] = {
+		categories = {
+			"Spectral",
+
+		},
+		fusions = {
+			{"Life", "Life", 100, 1, 1},
+		},
+	},
 	["Death"] = {
 		categories = {
 			"Anti-Matter",
@@ -375,7 +387,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Life", "Human", 89, 1, 1},
+			{"Life", "Human", 55, 1, 1},
 		},
 	},
 	["Fisherman"] = {

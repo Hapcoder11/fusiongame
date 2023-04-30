@@ -258,6 +258,15 @@ info.Elements = {
 			{"Matter", "Boulder", 95, 1, 1},
 		},
 	},
+	["Enormous Sludge"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Matter", "Mud", 60, 1, 1},
+		},
+	},
 	--ee
 }
 

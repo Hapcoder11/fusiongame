@@ -240,6 +240,15 @@ info.Elements = {
 			{"Wind", "Water", 70, 1, 1},
 		},
 	},
+	["Tornado"] = {
+		categories = {
+			"Air",
+
+		},
+		fusions = {
+			{"Air", "Wind", 45, 1, 1},
+		},
+	},
 	--ee
 }
 

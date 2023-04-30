@@ -299,6 +299,15 @@ info.Elements = {
 			{"Water", "Water", 70, 1, 1},
 		},
 	},
+	["Sand"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Calidium", "Water", 80, 1, 2},
+		},
+	},
 	--ee
 }
 

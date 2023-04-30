@@ -195,6 +195,15 @@ info.Elements = {
 			{"Water", "Rock", 90, 1, 1},
 		},
 	},
+	["Dustcloud"] = {
+		categories = {
+			"Water",
+
+		},
+		fusions = {
+			{"Dust", "Mist", 60, 1, 1},
+		},
+	},
 	--ee
 }
 

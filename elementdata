@@ -204,6 +204,15 @@ info.Elements = {
 			{"Dust", "Mist", 60, 1, 1},
 		},
 	},
+	["Dirty Water"] = {
+		categories = {
+			"Water",
+
+		},
+		fusions = {
+			{"Smoke", "Water", 80, 1, 1},
+		},
+	},
 	--ee
 }
 

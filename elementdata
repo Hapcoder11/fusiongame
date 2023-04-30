@@ -211,7 +211,6 @@ info.Elements = {
 		},
 		fusions = {
 			{"Smoke", "Water", 80, 1, 1},
-			{"Mud", "Water", 80, 1, 1},
 		},
 	},
 	["Calidium"] = {
@@ -248,6 +247,15 @@ info.Elements = {
 		},
 		fusions = {
 			{"Air", "Wind", 45, 1, 1},
+		},
+	},
+	["Mountain"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Matter", "Boulder", 95, 1, 1},
 		},
 	},
 	--ee

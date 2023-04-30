@@ -231,6 +231,15 @@ info.Elements = {
 			{"Fire", "Mud", 80, 1, 2},
 		},
 	},
+	["Rain"] = {
+		categories = {
+			"Water",
+
+		},
+		fusions = {
+			{"Wind", "Water", 70, 1, 1},
+		},
+	},
 	--ee
 }
 

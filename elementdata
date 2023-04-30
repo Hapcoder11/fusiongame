@@ -29,6 +29,9 @@ info.categories = {
 	["Life"] = {
 		col = Color3.new(0.156863, 0.784314, 0.545098)
 	},
+	["Holy"] = {
+		col = Color3.new(0.839216, 0.658824, 0)
+	},
 	--ce
 }
 info.Elements = {
@@ -396,10 +399,9 @@ info.Elements = {
 	["Angel"] = {
 		categories = {
 			"Holy",
-
 		},
 		fusions = {
-			{"Human", "Bird", 65, 1, 1},
+			{"Human", "Bird", "Life", 65, 1, 1},
 		},
 	},
 	["Abomination"] = {
@@ -408,16 +410,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Human", "Bird", 100, 1, 1},
-		},
-	},
-	["Abomination"] = {
-		categories = {
-			"Death",
-
-		},
-		fusions = {
-			{"Human", "Bird", 100, 1, 1},
+			{"Human", "Bird", "Fish", "Bug", 100, 1, 1},
 		},
 	},
 	--ee

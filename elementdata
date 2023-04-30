@@ -246,7 +246,8 @@ info.Elements = {
 		},
 		fusions = {
 			{"Wind", "Water", 70, 1, 1},
-			{"Air", "Water", 9, 1, 1},
+			{"Air", "Water", 15, 1, 1},
+			{"Mist", "Water", 90, 1, 1},
 		},
 	},
 	["Tornado"] = {

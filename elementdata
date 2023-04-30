@@ -123,6 +123,15 @@ info.Elements = {
 			{"Rock", "Air", 65, 1, 2},
 		},
 	},
+	["Smoke"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Fire", "Air", 95, 1, 2},
+		},
+	},
 	--ee
 }
 

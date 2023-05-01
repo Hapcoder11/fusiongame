@@ -256,6 +256,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Fire", "Mud", 80, 1, 2},
+		{"Rock", "Lava", 93, 1, 1},
 		},
 	},
 	["Rain"] = {
@@ -746,6 +747,27 @@ info.Elements = {
 		fusions = {
 			{"Air", "Metal", 90, 1, 1},
 			{"Mist", "Metal", 78, 1, 1},
+		},
+		rank = "common",
+	},
+	["Volcano"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Lava", "Enormous Sludge", 100, 1, 1},
+		{"Lava", "Magma", "Rock", 100, 1, 1},
+		},
+		rank = "epic",
+	},
+	["Cloud"] = {
+		categories = {
+			"Air",
+
+		},
+		fusions = {
+			{"Fog", "Air", 94, 1, 1},
 		},
 		rank = "common",
 	},

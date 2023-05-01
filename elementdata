@@ -745,7 +745,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Air", "Metal", 90, 1, 1},
-		{78, 1, 1},
+			{"Mist", "Metal", 78, 1, 1},
 		},
 		rank = "common",
 	},

@@ -460,6 +460,15 @@ info.Elements = {
 			{"Life", "Death", 100, 1, 1},
 		},
 	},
+	["Hypernova"] = {
+		categories = {
+			"Cosmic",
+
+		},
+		fusions = {
+			{"Star", "Star", "Star, "100, 1, 1},
+		},
+	},
 	--ee
 }
 

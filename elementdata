@@ -718,6 +718,16 @@ info.Elements = {
 		},
 		rank = "Common",
 	},
+	["Gale Wind"] = {
+		categories = {
+			"Air",
+
+		},
+		fusions = {
+			{"Wind", "Wind", 92, 1, 1},
+		},
+		rank = "common",
+	},
 	--ee
 }
 

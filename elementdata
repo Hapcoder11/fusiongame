@@ -44,6 +44,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Anti-Matter", 100, 1,1},
+		{"Anti-Matter", "Anti-Matter", 100, 2, 2},
 		},
 		rank = "rare",
 		starter = true,
@@ -770,6 +771,16 @@ info.Elements = {
 			{"Fog", "Air", 94, 1, 1},
 		},
 		rank = "common",
+	},
+	["Black Hole"] = {
+		categories = {
+			"Cosmic",
+
+		},
+		fusions = {
+			{"Singularity", "Matter", "Matter", 100, 1, 1},
+		},
+		rank = "legendary",
 	},
 	--ee
 }

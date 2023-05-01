@@ -666,6 +666,16 @@ info.Elements = {
 		},
 		rank = "common",
 	},
+	["Dead Sea"] = {
+		categories = {
+			"Water",
+
+		},
+		fusions = {
+			{"Death", "Lake", 100, 1, 1},
+		},
+		rank = "epic",
+	},
 	--ee
 }
 

@@ -728,6 +728,16 @@ info.Elements = {
 		},
 		rank = "common",
 	},
+	["Gravity"] = {
+		categories = {
+			"cosmic",
+
+		},
+		fusions = {
+			{"Aether", "Air", 100, 1, 1},
+		},
+		rank = "legendary",
+	},
 	--ee
 }
 

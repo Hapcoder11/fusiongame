@@ -611,6 +611,15 @@ info.Elements = {
 			{"Mana", "Mage", "Aether", 100, 1, 1},
 		},
 	},
+	["Dunes"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Sand", "Mountain", 89, 1, 1},
+		},
+	},
 	--ee
 }
 

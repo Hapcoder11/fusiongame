@@ -602,6 +602,15 @@ info.Elements = {
 			{"Fisherman", "Fisherman", 90, 1, 1},
 		},
 	},
+	["Archmage"] = {
+		categories = {
+			"Holy",
+
+		},
+		fusions = {
+			{"Mana", "Mage", "Aether", 100, 1, 1},
+		},
+	},
 	--ee
 }
 

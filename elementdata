@@ -584,6 +584,15 @@ info.Elements = {
 		},
 		rank = "platinum",
 	},
+	["Sandstone"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Sand", "Rock", 80, 1, 2},
+		},
+	},
 	--ee
 }
 

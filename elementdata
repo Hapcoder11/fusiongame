@@ -278,6 +278,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Air", "Wind", 45, 1, 1},
+		{"Gale Wind", "Gale Wind", 100, 1, 2},
 		},
 		rank = "common",
 	},
@@ -781,6 +782,50 @@ info.Elements = {
 			{"Singularity", "Matter", "Matter", 100, 1, 1},
 		},
 		rank = "legendary",
+	},
+	["Hurricane"] = {
+		categories = {
+			"Air",
+
+		},
+		fusions = {
+			{"Water", "Gale Wind", 100, 1, 1},
+		{"Gale Wind", "Rain", 100, 1, 1},
+		},
+		rank = "common",
+	},
+	["Lightning"] = {
+		categories = {
+			"Spectral",
+
+		},
+		fusions = {
+			{"Mana", "Cloud", 100, 1, 1},
+		{"Cloud", "Life", 100, 1, 1},
+		{"Mana", "Air", 100, 1, 1},
+		{"Mana", "Wind", 100, 1, 1},
+		},
+		rank = "epic",
+	},
+	["AI"] = {
+		categories = {
+			"Metal",
+
+		},
+		fusions = {
+			{"Metal", "Life", 100, 1, 1},
+		},
+		rank = "rare",
+	},
+	["Glass"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Sand", "Fire", 100, 1, 1},
+		},
+		rank = "common",
 	},
 	--ee
 }

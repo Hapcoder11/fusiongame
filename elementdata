@@ -448,7 +448,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Mana", "Matter", "Life", "100, 1, 1},
+			{"Mana", "Matter", "Life", 100, 1, 1},
 		},
 	},
 	["Spirit"] = {
@@ -457,7 +457,7 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Life", "Death", "100, 1, 1},
+			{"Life", "Death", 100, 1, 1},
 		},
 	},
 	--ee

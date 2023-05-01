@@ -738,6 +738,16 @@ info.Elements = {
 		},
 		rank = "legendary",
 	},
+	["Rust"] = {
+		categories = {
+			"metal",
+
+		},
+		fusions = {
+			{"Aether", "Air", "Metal", 90, 1, 1},
+		},
+		rank = "common",
+	},
 	--ee
 }
 

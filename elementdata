@@ -703,19 +703,11 @@ info.Elements = {
 		},
 		fusions = {
 			{"Death", "Dirty Water", 100, 1, 1},
+			{"Rock", "Dirty Water", "Mud", "Rock", 90, 1, 1},
 		},
 		rank = "exotic",
 	},
-	["Dirtiest Water"] = {
-		categories = {
-			"Water",
 
-		},
-		fusions = {
-			{"Death", "Dirty Water", 100, 1, 1},
-		},
-		rank = "exotic",
-	},
 	--ee
 }
 

@@ -541,6 +541,15 @@ info.Elements = {
 			{"Life", "Matter", 100, 1, 1},
 		},
 	},
+	["Eternal Flame"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Fire", "Life", 100, 1, 1},
+		},
+	},
 	--ee
 }
 

@@ -423,7 +423,7 @@ info.Elements = {
 	},
 	["Monster"] = {
 		categories = {
-			"Death",
+			"Anti-Matter",
 
 		},
 		fusions = {
@@ -442,7 +442,7 @@ info.Elements = {
 	},
 	["Fallen Angel"] = {
 		categories = {
-			"Death",
+			"Anti-Matter",
 		},
 		fusions = {
 			{"Human", "Bird", "Death", 65, 1, 1},
@@ -511,7 +511,7 @@ info.Elements = {
 	},
 	["Undead"] = {
 		categories = {
-			"Death",
+			"Anti-Matter",
 
 		},
 		fusions = {

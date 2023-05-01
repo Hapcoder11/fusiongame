@@ -45,6 +45,7 @@ info.Elements = {
 		fusions = {
 			{"Matter", "Anti-Matter", 100, 1,1},
 		},
+		rank = "gold",
 		starter = true,
 	},
 	["Anti-Matter"] = {
@@ -54,6 +55,7 @@ info.Elements = {
 		fusions = {
 			{"Matter", "Anti-Matter", 100, 1,1},
 		},
+		rank = "gold",
 		starter = true,
 	},
 	["Fire"] = {
@@ -175,6 +177,7 @@ info.Elements = {
 			{"Explosion", "Steam", 95, 1, 2},
 			{"Calidium", "Water", 80, 1, 2},
 		},
+		rank = "silver",
 	},
 	["Fog"] = {
 		categories = {
@@ -205,6 +208,7 @@ info.Elements = {
 		fusions = {
 			{"Anti-Matter", "Rock", 7, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Mud"] = {
 		categories = {
@@ -223,6 +227,7 @@ info.Elements = {
 		fusions = {
 			{"Dust", "Mist", 60, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Dirty Water"] = {
 		categories = {
@@ -242,6 +247,7 @@ info.Elements = {
 		fusions = {
 			{"Boulder", "Fire", 50, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Magma"] = {
 		categories = {
@@ -271,6 +277,7 @@ info.Elements = {
 		fusions = {
 			{"Air", "Wind", 45, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Mountain"] = {
 		categories = {
@@ -290,6 +297,7 @@ info.Elements = {
 		fusions = {
 			{"Matter", "Mud", 60, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Star"] = {
 		categories = {
@@ -299,6 +307,7 @@ info.Elements = {
 		fusions = {
 			{"Matter", "Fire", 70, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Lake"] = {
 		categories = {
@@ -326,6 +335,7 @@ info.Elements = {
 		fusions = {
 			{"Rock", "Water", "Matter", 100, 1, 1},
 		},
+		rank = "gold",
 	},
 	["Mana"] = {
 		categories = {
@@ -335,6 +345,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Life", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Death"] = {
 		categories = {
@@ -344,6 +355,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Anti-Matter", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Bird"] = {
 		categories = {
@@ -353,6 +365,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Air", 95, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Fish"] = {
 		categories = {
@@ -362,6 +375,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Water", 95, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Bug"] = {
 		categories = {
@@ -371,6 +385,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Rock", 95, 1, 1},
 		},
+		rank = "silver",
 	},
 	["Human"] = {
 		categories = {
@@ -380,6 +395,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Rock", "Water", "Fire", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Mage"] = {
 		categories = {
@@ -390,6 +406,7 @@ info.Elements = {
 			{"Life", "Human", 55, 1, 1},
 			{"Mana", "Human", 98, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Fisherman"] = {
 		categories = {
@@ -399,6 +416,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Fish", 80, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Monster"] = {
 		categories = {
@@ -408,6 +426,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Bug", 80, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Angel"] = {
 		categories = {
@@ -416,6 +435,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Bird", "Life", 65, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Fallen Angel"] = {
 		categories = {
@@ -424,6 +444,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Bird", "Death", 65, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Winged Human"] = {
 		categories = {
@@ -432,6 +453,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Bird", 78, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Abomination"] = {
 		categories = {
@@ -441,6 +463,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Bird", "Fish", "Bug", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Aether"] = {
 		categories = {
@@ -450,6 +473,7 @@ info.Elements = {
 		fusions = {
 			{"Mana", "Matter", "Life", 100, 1, 1},
 		},
+		rank = "exotic",
 	},
 	["Spirit"] = {
 		categories = {
@@ -459,6 +483,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Death", 100, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Hypernova"] = {
 		categories = {
@@ -468,6 +493,7 @@ info.Elements = {
 		fusions = {
 			{"Star", "Star", "Star", 100, 1, 1},
 		},
+		rank = "exotic",
 	},
 	["Supernova"] = {
 		categories = {
@@ -477,6 +503,7 @@ info.Elements = {
 		fusions = {
 			{"Star", "Star", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Undead"] = {
 		categories = {
@@ -486,6 +513,7 @@ info.Elements = {
 		fusions = {
 			{"Human", "Spirit", 100, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Nixie"] = {
 		categories = {
@@ -495,6 +523,7 @@ info.Elements = {
 		fusions = {
 			{"Spirit", "Water", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Sylph"] = {
 		categories = {
@@ -504,6 +533,7 @@ info.Elements = {
 		fusions = {
 			{"Spirit", "Rock", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Stone"] = {
 		categories = {
@@ -522,6 +552,7 @@ info.Elements = {
 		fusions = {
 			{"Matter", "Matter", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	["Metal"] = {
 		categories = {
@@ -531,6 +562,7 @@ info.Elements = {
 		fusions = {
 			{"Rock", "Explosion", 75, 1, 4},
 		},
+		rank = "silver",
 	},
 	["Earth"] = {
 		categories = {
@@ -540,6 +572,7 @@ info.Elements = {
 		fusions = {
 			{"Life", "Matter", 100, 1, 1},
 		},
+		rank = "diamond",
 	},
 	["Eternal Flame"] = {
 		categories = {
@@ -549,6 +582,7 @@ info.Elements = {
 		fusions = {
 			{"Fire", "Life", 100, 1, 1},
 		},
+		rank = "platinum",
 	},
 	--ee
 }

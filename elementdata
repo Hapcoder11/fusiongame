@@ -686,6 +686,16 @@ info.Elements = {
 		},
 		rank = "epic",
 	},
+	["Reaper"] = {
+		categories = {
+			"Death",
+
+		},
+		fusions = {
+			{"Death", "Nixie", 100, 1, 1},
+		},
+		rank = "exotic",
+	},
 	--ee
 }
 

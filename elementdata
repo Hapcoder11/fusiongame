@@ -442,6 +442,15 @@ info.Elements = {
 			{"Human", "Bird", "Fish", "Bug", 100, 1, 1},
 		},
 	},
+	["Aether"] = {
+		categories = {
+			"Spectral",
+
+		},
+		fusions = {
+			{"{100, 1, 1},
+		},
+	},
 	--ee
 }
 

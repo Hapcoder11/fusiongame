@@ -642,7 +642,9 @@ info.Elements = {
 		},
 		fusions = {
 			{"Dust", "Sand", 100, 1, 1},
+			{"Dust", "Dust", 100, 1, 1},
 		},
+		rank = "common",
 	},
 	--ee
 }

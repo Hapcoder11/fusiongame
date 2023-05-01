@@ -492,7 +492,8 @@ info.Elements = {
 
 		},
 		fusions = {
-			{"Star", "Star", "Star", 100, 1, 1},
+			{"Star", "Star", "Star", 100, 1, 2},
+			{"Supernova", "Supernova", 100, 1, 1},
 		},
 		rank = "legendary",
 	},

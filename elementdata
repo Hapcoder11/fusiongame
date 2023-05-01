@@ -584,15 +584,6 @@ info.Elements = {
 		},
 		rank = "platinum",
 	},
-	["Lava Cloud"] = {
-		categories = {
-			"Fire",
-
-		},
-		fusions = {
-			{87, 1, 1},
-		},
-	},
 	--ee
 }
 

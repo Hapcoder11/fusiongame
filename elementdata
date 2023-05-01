@@ -626,6 +626,15 @@ info.Elements = {
 		},
 		rank = "common",
 	},
+	["Nuke"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Explosion", "Explosion", 80, 1, 1},
+		},
+	},
 	--ee
 }
 

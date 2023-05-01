@@ -44,6 +44,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Anti-Matter", 100, 1,1},
+		{"Fire", "Rock", "Air", "Water", 60, 1, 1},
 		{"Anti-Matter", "Anti-Matter", 100, 2, 2},
 		},
 		rank = "rare",
@@ -55,6 +56,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Anti-Matter", 100, 1,1},
+		{"Fire", "Rock", "Air", "Water", 60, 1, 1},
 		},
 		rank = "rare",
 		starter = true,
@@ -267,6 +269,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Wind", "Water", 70, 1, 1},
+		{"Vapor", "Water", 100, 1, 1},
 			{"Air", "Water", 15, 1, 1},
 			{"Mist", "Water", 90, 1, 1},
 		},
@@ -656,6 +659,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Lake", "Lake", 100, 1, 1},
+		{"Matter", "Water", 100, 1, 1},
 		},
 		rank = "common",
 	},
@@ -826,6 +830,57 @@ info.Elements = {
 			{"Sand", "Fire", 100, 1, 1},
 		},
 		rank = "common",
+	},
+	["Meteor"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Fire", "Boulder", 95, 1, 1},
+		},
+		rank = "common",
+	},
+	["Black Dust"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Smoke", "Rock", 90, 1, 1},
+		},
+		rank = "common",
+	},
+	["River"] = {
+		categories = {
+			"Water",
+
+		},
+		fusions = {
+			{"Water", "Lake", 95, 1, 1},
+		},
+		rank = "common",
+	},
+	["Tsar Bomba"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Nuke", "Nuke", 100, 1, 1},
+		},
+		rank = "rare",
+	},
+	["Dirty Bomb"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Nuke", "Dust", 100, 1, 1},
+		{"Nuke", "Air", 100, 1, 1},
+		},
+		rank = "rare",
 	},
 	--ee
 }

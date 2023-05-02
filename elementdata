@@ -912,6 +912,16 @@ info.Elements = {
 		},
 		
 	},
+	["Floating Island"] = {
+		categories = {
+			"Air",
+
+		},
+		fusions = {
+			{"Air", "Matter", 100, 1, 1},
+		},
+		
+	},
 	--ee
 }
 

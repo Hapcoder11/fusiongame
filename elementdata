@@ -892,6 +892,16 @@ info.Elements = {
 		},
 		rank = "common",
 	},
+	["Coal"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Rock", "Smoke", 100, 1, 1},
+		},
+		rank = "",
+	},
 	--ee
 }
 

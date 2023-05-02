@@ -907,8 +907,8 @@ info.Elements = {
 
 		},
 		fusions = {
-			{96, 1, 1},
-		{"Air", "Mud", 87, 1, 1},
+			{"Air", "Rock", "Water", 96, 1, 1},
+			{"Air", "Mud", 87, 1, 1},
 		},
 		
 	},

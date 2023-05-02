@@ -882,6 +882,16 @@ info.Elements = {
 		},
 		rank = "rare",
 	},
+	["Lake of Fire"] = {
+		categories = {
+			"Fire",
+
+		},
+		fusions = {
+			{"Lake", "Fire", 90, 1, 1},
+		},
+		rank = "common",
+	},
 	--ee
 }
 

@@ -292,6 +292,7 @@ info.Elements = {
 		},
 		fusions = {
 			{"Matter", "Boulder", 95, 1, 1},
+		{"Matter", "Rock", 100, 1, 1},
 			{"Boulder", "Boulder", 70, 1, 1},
 		},
 		rank = "common",
@@ -930,6 +931,16 @@ info.Elements = {
 		fusions = {
 			{"Air", "Boulder", 100, 1, 1},
 			{"Air", "Rock", 35, 1, 1},
+		},
+		rank = "common",
+	},
+	["Salt"] = {
+		categories = {
+			"Earth",
+
+		},
+		fusions = {
+			{"Ocean", "Fire", 100, 1, 1},
 		},
 		rank = "common",
 	},

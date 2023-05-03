@@ -35,6 +35,9 @@ info.categories = {
 	["Spectral"] = {
 		col = Color3.new(0, 0.823529, 0.839216)
 	},
+	["Shiny"] = {
+		col = "customGradient",
+	}
 	--ce
 }
 info.Elements = {

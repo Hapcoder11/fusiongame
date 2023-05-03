@@ -618,7 +618,7 @@ info.Elements = {
 	},
 	["Archmage"] = {
 		categories = {
-			"Holy",
+			"Shiny",
 
 		},
 		rank = "mythic",

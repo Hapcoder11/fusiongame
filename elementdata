@@ -713,7 +713,7 @@ info.Elements = {
 			{"Death", "Dirty Water", 100, 1, 1},
 			{"Rock", "Dirty Water", "Mud", "Rock", 90, 1, 1},
 		},
-		rank = "epic",
+		rank = "exotic",
 	},
 
 	["Storm"] = {
@@ -943,6 +943,16 @@ info.Elements = {
 			{"Ocean", "Fire", 100, 1, 1},
 		},
 		rank = "common",
+	},
+	["God of Fishermen"] = {
+		categories = {
+			"Shiny",
+
+		},
+		fusions = {
+			{"Master Fisherman", "Master Fisherman", 100, 1, 1},
+		},
+		rank = "mythic",
 	},
 	--ee
 }
